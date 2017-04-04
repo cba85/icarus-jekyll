@@ -1,0 +1,38 @@
+# Website
+baseurl: http://www.example.com
+url: http://www.example.com
+lang: fr
+
+# Meta
+title: Example title
+description: > # this means to ignore newlines until "baseurl:"
+  Example description
+
+# Contact
+email: contact@example.com
+email_spam: contact [at] example [dot] com
+
+# Social
+twitter_username: twitter
+github_username: github
+linkedin_username: linkedin
+
+# Legal
+author: Author
+author_url: http://www.author.com
+vendor: Vendor
+vendor_url: https://www.vendor.com
+
+# Google Analytics
+google_analytics: UA-XXXXXXXX-X
+
+# Build settings
+timezone: Europe/Paris
+markdown: kramdown
+gems:
+  #- jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
