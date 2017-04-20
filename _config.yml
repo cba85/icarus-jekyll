@@ -1,11 +1,11 @@
 # Website
-baseurl: http://www.example.com
+baseurl:
 url: http://www.example.com
 lang: fr
 
 # Meta
 title: Example title
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Example description
 
 # Contact
