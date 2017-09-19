@@ -1,17 +1,25 @@
-# Jekyll starter
+# [PROJECT NAME]
 
-Starter template for Jekyll projects on Jekyll.
+[Description]
 
-## Jekyll plugins
+## Information
 
-- [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
-- [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
+This website is made with Icarus Jekyll.
 
-## Github pages
+- [Documentation](_docs/README.md)
 
-- Remove the ``gem "jekyll`` in Gemfile
-- Uncomment ``gem "github-pages", group: :jekyll_plugins``
+## Sitemap
 
-```ruby
-bundle update github-pages
+[TODO]
+
 ```
+home
+├── page
+└── legal
+```
+
+## Data
+
+[TODO]
+
+- ...

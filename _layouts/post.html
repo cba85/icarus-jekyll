@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<article itemscope="" itemtype="http://schema.org/BlogPosting">
+  <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+  <meta itemprop="description" content="{{ page.description | strip_html | truncatewords: 40 }}" />
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col col-lg-8">
+      <p class="text-muted"><small><time class="published" itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time> &nbsp; · &nbsp;
+        {% assign words = content | number_of_words %}
+          {% if words < 360 %}
+            1 min
+          {% else %}
+            {{ words | divided_by:180 }} mins
+          {% endif %}
+        read
+        {% if page.last_updated_at %}
+        &nbsp; · &nbsp; Last update: {{ page.last_updated_at | date: "%B %d, %Y" }}
+        {% endif %}
+      <br>
+      {% for tag in page.tags %}
+        <span class="ucfirst badge badge-light">{{ tag }}</span>
+      {% endfor %}
+      </small></p>
+      <h1 itemprop="name">{{ page.title }}</h1>
+      <p>{{ page.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col col-lg-8" itemprop="articleBody">
+      {{ content | remove: page.excerpt }}
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col col-lg-8">
+      <p class="text-right">Share this &nbsp; — &nbsp; <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}
+" target="_blank">Facebook</a> | <a href="http://twitter.com/share?text={{ page.title }}&url={{ site.url }}{{ page.url}}
+" target="_blank">Twitter</a></p>
+    </div>
+  </div>
+</div>
+
+</div>
+</article>
