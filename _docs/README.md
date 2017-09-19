@@ -10,11 +10,9 @@ This website is made for Github Pages.
 bundle install
 ```
 
-## Project
+## Technical information
 
-All docs and source files are in the `_docs` folder.
-
-## Jekyll
+### Jekyll
 
 - [Documentation](https://jekyllrb.com)
 
@@ -27,21 +25,33 @@ See [_config.yml](_config.yml) and [Gemfile](Gemfile).
 - [jekyll-feed](https://github.com/jekyll/jekyll-feed)
 - [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from)
 
-## Technical information
-
 ### Front libraries
 
 - [Bootstrap 4 beta](https://getbootstrap.com)
 
-## Data
+## Architecture
+
+### Data
 
 All data files are in `_data` folder.
 
-## Pages
+### Docs
+
+All docs and source files are in the `_docs` folder.
+
+### Template
+
+Template are in `_layouts` and `_includes` folders.
+
+### Assets
+
+Assets (images, style, scripts) are in `_assets` folder.
+
+### Pages
 
 Pages are in the `pages` folder.
 
-## Posts
+### Posts
 
 - Posts (.md files) are to be saved in `_posts`, with the following format: `2011-12-31-new-years-eve-is-awesome.md`
 - Posts should be tagged, for instance "Culture", "Tech", "Conference", ...
