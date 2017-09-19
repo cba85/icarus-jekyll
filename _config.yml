@@ -7,6 +7,17 @@ lang: fr
 title: Example title
 description: >
   Example description
+author: Author
+logo: http://www.example.com/assets/img/logo.jpg
+social:
+  name: Author
+  links:
+    - https://twitter.com/page
+    - https://www.facebook.com/page
+    - https://www.linkedin.com/in/page/
+    - https://github.com/page
+twitter:
+  username: author
 
 # Contact
 email: contact@example.com
@@ -28,7 +39,6 @@ google_analytics: UA-XXXXXXXX-X
 
 # Build settings
 timezone: Europe/Paris
-markdown: kramdown
 gems:
   #- jekyll-feed
   - jekyll-seo-tag
