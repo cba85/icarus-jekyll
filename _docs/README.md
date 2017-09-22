@@ -29,6 +29,10 @@ See [_config.yml](_config.yml) and [Gemfile](Gemfile).
 
 - [Bootstrap 4 beta](https://getbootstrap.com)
 
+### Travis CI
+
+A `.travis.yml` file is included.
+
 ## Architecture
 
 ### Data
@@ -53,6 +57,8 @@ Pages are in the `pages` folder.
 
 ### Posts
 
+#### Process
+
 - Posts (.md files) are to be saved in `_posts`, with the following format: `2011-12-31-new-years-eve-is-awesome.md`
 - Posts should be tagged, for instance "Culture", "Tech", "Conference", ...
 - Images that belong to a post go into images, prefixed with the posts's date (e.g. `2011-12-31-happy.png`) at 1200x803 size
@@ -61,3 +67,11 @@ Pages are in the `pages` folder.
     ```bash
     jekyll serve --drafts
     ```
+
+#### Reading time
+
+Reading time module is included in the post template.
+
+#### Schema
+
+Schema is included in the post template.
