@@ -58,10 +58,6 @@ Template are in `_layouts` and `_includes` folders.
 
 Assets (images, style, scripts) are in `_assets` folder.
 
-### Pages
-
-Pages are in the `pages` folder.
-
 ### Posts
 
 #### Process
