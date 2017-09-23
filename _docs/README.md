@@ -6,8 +6,15 @@ Starter template for Jekyll projects for Github Pages.
 
 This website is made for Github Pages.
 
-```ruby
+```
 bundle install
+```
+
+## Usage
+
+```
+make optimize
+make serve
 ```
 
 ## Technical information
@@ -75,3 +82,8 @@ Reading time module is included in the post template.
 #### Schema
 
 Schema is included in the post template.
+
+## Makefile
+
+- `serve`: Start a simple jekyll server.
+- `optimize`: Optimize assets files (concat and minify css and js files).
