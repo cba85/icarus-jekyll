@@ -1,7 +1,7 @@
 # Website
 baseurl:
 url: http://www.example.com
-lang: fr
+lang: en
 
 # Meta
 title: Example title
@@ -9,6 +9,7 @@ description: >
   Example description
 author: Author
 logo: http://www.example.com/assets/img/logo.jpg
+image: http://www.example.com/assets/img/logo.jpg
 social:
   name: Author
   links:
