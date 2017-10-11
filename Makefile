@@ -4,6 +4,14 @@
 serve:
 	jekyll serve --watch
 
+## drafts - Start a jekyll server displaying drafts
+drafts:
+        jekyll serve --watch --drafts
+
+## future - Start a jekyll server displaying future posts
+future:
+        jekyll --serve --watch --future
+
 # CSS
 
 CSS_FILES = assets/bootstrap-4.0.0-beta/css/bootstrap.min.css \

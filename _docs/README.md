@@ -81,5 +81,9 @@ Schema is included in the post template.
 
 ## Makefile
 
+Type `help` for all commands
+
 - `serve`: Start a simple jekyll server.
+- `drafts`: Start a simple jekyll server displaying drafts.
+- `future`: Start a simple jekyll server displaying future posts.
 - `optimize`: Optimize assets files (concat and minify css and js files).
