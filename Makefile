@@ -6,15 +6,15 @@ serve:
 
 ## drafts - Start a jekyll server displaying drafts
 drafts:
-        jekyll serve --watch --drafts
+	jekyll serve --watch --drafts
 
 ## future - Start a jekyll server displaying future posts
 future:
-        jekyll --serve --watch --future
+	jekyll --serve --watch --future
 
 # CSS
 
-CSS_FILES = assets/bootstrap-4.0.0-beta/css/bootstrap.min.css \
+CSS_FILES = assets/bootstrap-4.0.0-beta.2/css/bootstrap.min.css \
 	_site/assets/main.css
 
 ## concat-css - Concat css files.
@@ -30,7 +30,7 @@ minify-css:
 
 JS_FILES = assets/jquery-3.2.1.slim.min.js \
 	assets/popper.min.js \
-	assets/bootstrap-4.0.0-beta/js/bootstrap.min.js
+	assets/bootstrap-4.0.0-beta.2/js/bootstrap.min.js
 
 ## concat-js - Concat js files.
 concat-js:
