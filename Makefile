@@ -25,6 +25,7 @@ concat-css:
 minify-css:
 	curl -X POST -s --data-urlencode 'input@assets/application.css' https://cssminifier.com/raw > assets/application.min.css
 	rm -rf assets/application.css
+	cp assets/application.min.css _includes/application.min.css
 
 # JS
 
